@@ -1,0 +1,470 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+local UICorner = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
+local titulo = Instance.new("TextLabel")
+local HomeFrame = Instance.new("Frame")
+local PlayerName = Instance.new("TextLabel")
+local agradecimientos = Instance.new("TextLabel")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local UICorner_2 = Instance.new("UICorner")
+local UICorner_3 = Instance.new("UICorner")
+local GameFrame = Instance.new("ScrollingFrame")
+local script1 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local script2 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local script3 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local script4 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local script5 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local script6 = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local script7 = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local script8 = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local script9 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local script10 = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local universal = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local server = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local home = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local credits = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local games = Instance.new("TextButton")
+local UICorner_18 = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 1.000
+Frame.Position = UDim2.new(0.345565736, 0, 0.319571853, 0)
+Frame.Size = UDim2.new(0, 389, 0, 210)
+
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.Size = UDim2.new(0, 389, 0, 210)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=7643819725"
+
+UICorner.Parent = ImageLabel
+
+TextButton.Parent = ImageLabel
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.Position = UDim2.new(0.933161974, 0, 0, 0)
+TextButton.Size = UDim2.new(0, 26, 0, 25)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "X"
+TextButton.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+titulo.Name = "titulo"
+titulo.Parent = Frame
+titulo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+titulo.BackgroundTransparency = 1.000
+titulo.Position = UDim2.new(0.208226219, 0, 0, 0)
+titulo.Size = UDim2.new(0, 200, 0, 41)
+titulo.Font = Enum.Font.SourceSans
+titulo.Text = " frozkrpt hub"
+titulo.TextColor3 = Color3.fromRGB(189, 255, 248)
+titulo.TextScaled = true
+titulo.TextSize = 14.000
+titulo.TextWrapped = true
+
+HomeFrame.Name = "HomeFrame"
+HomeFrame.Parent = Frame
+HomeFrame.BackgroundColor3 = Color3.fromRGB(107, 107, 107)
+HomeFrame.BackgroundTransparency = 0.350
+HomeFrame.BorderColor3 = Color3.fromRGB(107, 107, 107)
+HomeFrame.Position = UDim2.new(0.0257069413, 0, 0.233333334, 0)
+HomeFrame.Size = UDim2.new(0, 271, 0, 148)
+
+PlayerName.Name = "PlayerName"
+PlayerName.Parent = HomeFrame
+PlayerName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerName.BackgroundTransparency = 1.000
+PlayerName.Position = UDim2.new(0.428015709, 0, 0.144522011, 0)
+PlayerName.Size = UDim2.new(0, 150, 0, 50)
+PlayerName.Font = Enum.Font.SourceSans
+PlayerName.TextColor3 = Color3.fromRGB(0, 0, 0)
+PlayerName.TextScaled = true
+PlayerName.TextSize = 14.000
+PlayerName.TextWrapped = true
+
+agradecimientos.Name = "agradecimientos"
+agradecimientos.Parent = HomeFrame
+agradecimientos.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+agradecimientos.BackgroundTransparency = 1.000
+agradecimientos.Position = UDim2.new(-0.0031571649, 0, 0.6927073, 0)
+agradecimientos.Size = UDim2.new(0, 263, 0, 51)
+agradecimientos.Font = Enum.Font.SourceSans
+agradecimientos.Text = "thanks for using frozkprt hub"
+agradecimientos.TextColor3 = Color3.fromRGB(0, 0, 0)
+agradecimientos.TextScaled = true
+agradecimientos.TextSize = 14.000
+agradecimientos.TextWrapped = true
+
+ImageLabel_2.Parent = HomeFrame
+ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel_2.BackgroundTransparency = 1.000
+ImageLabel_2.Position = UDim2.new(-0.0031571649, 0, 0.0132471258, 0)
+ImageLabel_2.Size = UDim2.new(0, 101, 0, 100)
+ImageLabel_2.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+UICorner_2.CornerRadius = UDim.new(1, 0)
+UICorner_2.Parent = ImageLabel_2
+
+UICorner_3.Parent = HomeFrame
+
+GameFrame.Name = "GameFrame"
+GameFrame.Parent = Frame
+GameFrame.Active = true
+GameFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GameFrame.BackgroundTransparency = 1.000
+GameFrame.Position = UDim2.new(0.0462724939, 0, 0.195238099, 0)
+GameFrame.Size = UDim2.new(0, 263, 0, 153)
+GameFrame.Visible = false
+
+script1.Name = "script 1"
+script1.Parent = GameFrame
+script1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+script1.Position = UDim2.new(0.0342205353, 0, 0.0153004183, 0)
+script1.Size = UDim2.new(0, 134, 0, 34)
+script1.Font = Enum.Font.SourceSans
+script1.TextColor3 = Color3.fromRGB(0, 0, 0)
+script1.TextSize = 14.000
+
+UICorner_4.Parent = script1
+
+script2.Name = "script 2"
+script2.Parent = GameFrame
+script2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+script2.Position = UDim2.new(0.0342205353, 0, 0.110538512, 0)
+script2.Size = UDim2.new(0, 134, 0, 34)
+script2.Font = Enum.Font.SourceSans
+script2.TextColor3 = Color3.fromRGB(0, 0, 0)
+script2.TextSize = 14.000
+
+UICorner_5.Parent = script2
+
+script3.Name = "script 3"
+script3.Parent = GameFrame
+script3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+script3.Position = UDim2.new(0.0342205353, 0, 0.210538507, 0)
+script3.Size = UDim2.new(0, 134, 0, 34)
+script3.Font = Enum.Font.SourceSans
+script3.TextColor3 = Color3.fromRGB(0, 0, 0)
+script3.TextSize = 14.000
+
+UICorner_6.Parent = script3
+
+script4.Name = "script 4"
+script4.Parent = GameFrame
+script4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+script4.Position = UDim2.new(0.0342205353, 0, 0.315300405, 0)
+script4.Size = UDim2.new(0, 134, 0, 34)
+script4.Font = Enum.Font.SourceSans
+script4.TextColor3 = Color3.fromRGB(0, 0, 0)
+script4.TextSize = 14.000
+
+UICorner_7.Parent = script4
+
+script5.Name = "script 5"
+script5.Parent = GameFrame
+script5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+script5.Position = UDim2.new(0.0342205353, 0, 0.415300399, 0)
+script5.Size = UDim2.new(0, 134, 0, 34)
+script5.Font = Enum.Font.SourceSans
+script5.TextColor3 = Color3.fromRGB(0, 0, 0)
+script5.TextSize = 14.000
+
+UICorner_8.Parent = script5
+
+script6.Name = "script 6"
+script6.Parent = GameFrame
+script6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+script6.Position = UDim2.new(0.0342205353, 0, 0.512919426, 0)
+script6.Size = UDim2.new(0, 134, 0, 34)
+script6.Font = Enum.Font.SourceSans
+script6.TextColor3 = Color3.fromRGB(0, 0, 0)
+script6.TextSize = 14.000
+
+UICorner_9.Parent = script6
+
+script7.Name = "script 7"
+script7.Parent = GameFrame
+script7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+script7.Position = UDim2.new(0.0342205353, 0, 0.620062292, 0)
+script7.Size = UDim2.new(0, 134, 0, 34)
+script7.Font = Enum.Font.SourceSans
+script7.TextColor3 = Color3.fromRGB(0, 0, 0)
+script7.TextSize = 14.000
+
+UICorner_10.Parent = script7
+
+script8.Name = "script 8"
+script8.Parent = GameFrame
+script8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+script8.Position = UDim2.new(0.0342205353, 0, 0.72482419, 0)
+script8.Size = UDim2.new(0, 134, 0, 34)
+script8.Font = Enum.Font.SourceSans
+script8.TextColor3 = Color3.fromRGB(0, 0, 0)
+script8.TextSize = 14.000
+
+UICorner_11.Parent = script8
+
+script9.Name = "script 9"
+script9.Parent = GameFrame
+script9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+script9.Position = UDim2.new(0.0342205353, 0, 0.829586089, 0)
+script9.Size = UDim2.new(0, 134, 0, 34)
+script9.Font = Enum.Font.SourceSans
+script9.TextColor3 = Color3.fromRGB(0, 0, 0)
+script9.TextSize = 14.000
+
+UICorner_12.Parent = script9
+
+script10.Name = "script 10"
+script10.Parent = GameFrame
+script10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+script10.Position = UDim2.new(0.0342205353, 0, 0.93196702, 0)
+script10.Size = UDim2.new(0, 134, 0, 34)
+script10.Font = Enum.Font.SourceSans
+script10.TextColor3 = Color3.fromRGB(0, 0, 0)
+script10.TextSize = 14.000
+
+UICorner_13.Parent = script10
+
+universal.Name = "universal"
+universal.Parent = Frame
+universal.BackgroundColor3 = Color3.fromRGB(107, 107, 107)
+universal.BackgroundTransparency = 0.550
+universal.Position = UDim2.new(0.758354783, 0, 0.5, 0)
+universal.Size = UDim2.new(0, 86, 0, 25)
+universal.Font = Enum.Font.SourceSans
+universal.Text = "universal"
+universal.TextColor3 = Color3.fromRGB(0, 0, 0)
+universal.TextSize = 14.000
+
+UICorner_14.Parent = universal
+
+server.Name = "server"
+server.Parent = Frame
+server.BackgroundColor3 = Color3.fromRGB(107, 107, 107)
+server.BackgroundTransparency = 0.550
+server.Position = UDim2.new(0.758354783, 0, 0.847619057, 0)
+server.Size = UDim2.new(0, 86, 0, 25)
+server.Font = Enum.Font.SourceSans
+server.Text = "server"
+server.TextColor3 = Color3.fromRGB(0, 0, 0)
+server.TextSize = 14.000
+
+UICorner_15.Parent = server
+
+home.Name = "home"
+home.Parent = Frame
+home.BackgroundColor3 = Color3.fromRGB(107, 107, 107)
+home.BackgroundTransparency = 0.550
+home.Position = UDim2.new(0.758354783, 0, 0.166666672, 0)
+home.Size = UDim2.new(0, 86, 0, 25)
+home.Font = Enum.Font.SourceSans
+home.Text = "home"
+home.TextColor3 = Color3.fromRGB(0, 0, 0)
+home.TextSize = 14.000
+
+UICorner_16.Parent = home
+
+credits.Name = "credits"
+credits.Parent = Frame
+credits.BackgroundColor3 = Color3.fromRGB(107, 107, 107)
+credits.BackgroundTransparency = 0.550
+credits.Position = UDim2.new(0.758354783, 0, 0.671428561, 0)
+credits.Size = UDim2.new(0, 86, 0, 25)
+credits.Font = Enum.Font.SourceSans
+credits.Text = "credits"
+credits.TextColor3 = Color3.fromRGB(0, 0, 0)
+credits.TextSize = 14.000
+
+UICorner_17.Parent = credits
+
+games.Name = "games"
+games.Parent = Frame
+games.BackgroundColor3 = Color3.fromRGB(107, 107, 107)
+games.BackgroundTransparency = 0.550
+games.Position = UDim2.new(0.758354783, 0, 0.333333343, 0)
+games.Size = UDim2.new(0, 86, 0, 25)
+games.Font = Enum.Font.SourceSans
+games.Text = "games"
+games.TextColor3 = Color3.fromRGB(0, 0, 0)
+games.TextSize = 14.000
+
+UICorner_18.Parent = games
+
+-- Scripts:
+
+local function HTQSNMR_fake_script() -- TextButton.Script 
+	local script = Instance.new('Script', TextButton)
+
+	local button = script.Parent
+	local frame = script.Parent.Parent.Parent.Parent.Frame
+	
+	button.MouseButton1Click:Connect(function()
+		
+		frame.Visible = false
+		
+	end)
+end
+coroutine.wrap(HTQSNMR_fake_script)()
+local function JSDJV_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	local UIS = game:GetService('UserInputService')
+	
+	local frame = script.Parent
+	
+	
+	
+	local dragToggle = nil
+	
+	local dragSpeed = 0.25
+	
+	local dragStart = nil
+	
+	local startPos = nil
+	
+	
+	
+	local function updateInput(input)
+	
+		local delta = input.Position - dragStart
+	
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+	
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	
+	end
+	
+	
+	
+	frame.InputBegan:Connect(function(input)
+	
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+	
+			dragToggle = true
+	
+			dragStart = input.Position
+	
+			startPos = frame.Position
+	
+			input.Changed:Connect(function()
+	
+				if input.UserInputState == Enum.UserInputState.End then
+	
+					dragToggle = false
+	
+				end
+	
+			end)
+	
+		end
+	
+	end)
+	
+	
+	
+	UIS.InputChanged:Connect(function(input)
+	
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+	
+			if dragToggle then
+	
+				updateInput(input)
+	
+			end
+	
+		end
+	
+	end)
+end
+coroutine.wrap(JSDJV_fake_script)()
+local function SQEMAT_fake_script() -- PlayerName.LocalScript 
+	local script = Instance.new('LocalScript', PlayerName)
+
+	local player = game.Players.LocalPlayer
+	
+	if player then
+		script.Parent.Text = "welcome"..player.Name.."!"
+	end
+end
+coroutine.wrap(SQEMAT_fake_script)()
+local function SOHRI_fake_script() -- ImageLabel_2.LocalScript 
+	local script = Instance.new('LocalScript', ImageLabel_2)
+
+	local Players = game:GetService("Players")
+	
+	local player = Players.LocalPlayer
+	
+	local userId = player.UserId
+	local thumbType = Enum.ThumbnailType.HeadShot
+	local thumbSize = Enum.ThumbnailSize.Size420x420
+	local content, isReady = Players:GetUserThumbnailAsync(userId, thumbType, thumbSize)
+	
+	local imageLabel = script.Parent
+	imageLabel.Image = content
+end
+coroutine.wrap(SOHRI_fake_script)()
+local function HFMF_fake_script() -- home.Script 
+	local script = Instance.new('Script', home)
+
+	local button = script.Parent
+	local GameFrame = script.Parent.Parent.GameFrame
+	local HomeFrame = script.Parent.Parent.HomeFrame
+	
+	button.MouseButton1Click:Connect(function()
+	
+		HomeFrame.Visible = true
+	
+		GameFrame.Visible = false
+	
+	end)
+	
+end
+coroutine.wrap(HFMF_fake_script)()
+local function XZEIV_fake_script() -- games.Script 
+	local script = Instance.new('Script', games)
+
+	local button = script.Parent
+	local GameFrame = script.Parent.Parent.GameFrame
+	local HomeFrame = script.Parent.Parent.HomeFrame
+	
+	button.MouseButton1Click:Connect(function()
+	
+		HomeFrame.Visible = false
+		
+		
+	    GameFrame.Visible = true
+		
+	end)
+	
+end
